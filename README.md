@@ -22,7 +22,7 @@ Dynamicznie wyświetla dane użytkownika i pozwala na przełączanie między dwo
 ---
 
 ### 🌐 Demo
-👉 (tutaj podlinkuj stronę po publikacji na GitHub Pages)
+👉 ([Zobacz demo](https://rybotycki.github.io/wizytowka-uzytkownika/))
 
 ---
 
