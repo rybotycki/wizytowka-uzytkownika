@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #333;
+}
+
+.wizytowka {
+    border: 2px solid #454545;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    background-color: #a9ffde;
+    transition: all 0.2s ease-in-out;
+}
+
+.wizytowka h2 {
+    margin: 0 0 10px;
+
+}
+
+.wizytowka p {
+    margin: 5px 0 10px 0;
+}
+
+button {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #454545;
+    background-color: #baffe5;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #83fdce;
+    cursor: pointer;
+
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
